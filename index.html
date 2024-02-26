@@ -3,6 +3,12 @@
 <head>
 	<title>Vis & Society Assignment 3</title>
 	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+	<style>
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
 </head>
 
 <body>
@@ -22,7 +28,7 @@
 			<h2>Phase One: Sketching Visualizations</h2>
 
       <figure>
-				<img src="sketch1.png" alt="" />
+				<img src="sketch2.png" alt="" />
 				<figcaption>
 					BRIEF CAPTION HERE.
 				</figcaption>
@@ -33,13 +39,13 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>At a high level, I was hoping this sketch would reveal age distribution changes via reversals of the dot's orderings; more specifically, how on the LHS (1900) the dots uniformly decrease from age 0 being the most populous, then age 5, and so on — and on the RHS (2000) the ordering would be different, revealing how some age groups outpaced others. Also, "crossings" that occur between lines between the two axes indicate distributional changes, so a graph with significant crossing essentially indicates a highly changed distribution.</li>
+				<li>Ultimately, the aforementioned design goals were achieved — there was significant crossing, showing that the age distributions changed. Unfortunately, however, gleaning much more detail beyond this is very difficult for several reasons. For one, the points have very similar populations and therefore cluster around small areas of the graph, making chaotic and it very difficult to read (to the point where I did not continue plotting the data as it just got more confusing). </li>
+				<li>Given these observations, my next sketch will aim to represent the desired differences in a more compact yet understandable manner.</li>
 			</ul>
 
       <figure>
-				<img src="sketch2.png" alt="" />
+				<img src="sketch1.png" alt="" />
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
@@ -50,9 +56,9 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>Iterating off of the last sketch, I again was hoping to reveal how the age distributions changed using a heatmap based on line density (rather than color, just to try something new out as suggested). This, at least initially, seemed to also be a more compact and simpler representation, as one just needs to look at the "heat" associated with a [Gender, Age] combination to see how it changed from 1900 to 2000.</li>
+				<li>I liked the heatmap aspect of the chart, as it immediately reveals that the older groups outpaced the rate at which they grew relative to the younger groups. Therefore, the simplicity of observations was achieved. However, I don't like the line-density approach to the heatmap more than color as it is significantly harder to glean exactly how much a group grew (you need to count the number of ticks in each box, which is a lot of work). It also oversimplifies the distribution, as we are not given information on how one [Gender, Age] combination compares to another, which is in my opinion valuable information regarding our overall question.</li>
+				<li>Given the observations, I want my next sketch to portray more detail of the distributions while still maintaining the immediate interpretability present in this visualization.</li>
 			</ul>
 
       <figure>
@@ -67,9 +73,9 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>For the final iteration of the sketching process, I'm hoping to strike a good balance between interpretability (better than the first) and detail (more than the second). As such, directly plotting the histograms and juxtaposing them by placing their bases together achieves this very well — at least intuitively, as I have no drawn the sketch yet.</li>
+				<li>Overall, this is my favorite sketch as the viewer can immediately glean differences between the two distributions, while also being presented with sufficient (though not overpowering / chaotic) detail that enables them to explore their own questions and comparisons.</li>
+				<li>One aspect that sticks out to me, however, is the lack of symmetry and aesthetics of this graph, which I plan to iterate on in phase 2. This is especially present when one also visualizes the distributions of the females as well. Namely, while the overall structure of the graph makes sense, I question whether juxtaposing the years in a single "male population" graph makes sense, or instead the years should be in two different graphs.</li>
 			</ul>
 
       <h3>Reflection</h3>
