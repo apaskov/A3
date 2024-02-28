@@ -26,11 +26,13 @@
 	<main>
 		<section>
 			<h2>Phase One: Sketching Visualizations</h2>
-
+				<h3>Exploration Question</h3>
+				<p>Despite their proximity, the beginning of the 20th and 21st centuries were very different times in America. As such, I'm curious how the age distributions for men and women vary in both periods — perhaps better modern medicine skews the current distribution towards older age, but perhaps the baby boomers reversed the effects of this.</p>
+	  <h3>Sketches</h3>
       <figure>
-				<img src="sketch2.png" alt="" />
+				<img src="sketch1.png" alt="" />
 				<figcaption>
-					BRIEF CAPTION HERE.
+					Comparison of the population, in millions, of male and female age groups in 1900 and 2000. Red and blue lines emphasize the gender of the underlying data point. 
 				</figcaption>
 			</figure>
 
@@ -45,9 +47,9 @@
 			</ul>
 
       <figure>
-				<img src="sketch1.png" alt="" />
+				<img src="sketch2.png" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					Heatmap of the percent difference of population between 1900 and 2000, by age group and gender. 
 				</figcaption>
 			</figure>
 
@@ -64,7 +66,7 @@
       <figure>
 				<img src="sketch3.png" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					Inverted population histograms, with counts in the millions, for males in 1900 and 2000.
 				</figcaption>
 			</figure>
 
@@ -81,7 +83,15 @@
       <h3>Reflection</h3>
 
       <p>
-        WRITE REFLECTION ON ALL 3 SKETCHES HERE.
+        As is clear from the reflections and bullets above, this iterative process of sketching was surprisingly effective for my creative process. In particular,
+		I was able to quickly iterate on my ideas, while also having complete flexibility as I was not constrained to a piece of software but rather free to draw
+		anything I could come up with.
+		While my initial idea presented all of the information given in the data (which, in my opinion, is a valuable trait), it was very difficult to interpret and
+		draw non-trivial assumptions from. My second visualization seemed to be a step in the right direction, as it was much more compact and easier to interpret,
+		but unfortunately compressed the information too much, making it difficult to fully answer the desired exploration question of how the age distributions changed.
+		Finally, my third visualization was a good balance between the two, and I believe it is the best visualization; however, there are still some 
+		weaknesses of this visualization, which I plan to address in the next phase by synthesizing elements from the first sketches 
+		— for example through swapping the order in which measures are presented, and using color to emphasize natural groupings.
       </p>
 
 		</section>
@@ -90,9 +100,9 @@
 			<h2>Phase Two: Final Design</h2>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="phase2.png" alt="" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					Comparison of the population distributions between 1900 and 2000, split by gender. The histograms are inverted, and the counts are in the millions.
 				</figcaption>
 			</figure>
 		</section>
@@ -101,14 +111,17 @@
 			<h2>Design Process & Design Decisions</h2>
 
 			<p>
-        DESCRIBE YOUR DESIGN PROCESS AND DECISION DECISIONS HERE.
+				I chose to stick to the same question as in phase one: "how [do] the age distributions for men and women vary in both periods — perhaps better modern medicine skews the current distribution towards older age, but perhaps the baby boomers reversed the effects of this" as it is something I am genuinely very curious about, given my background in medical developmental history. Drawing on the final sketch from phase one, I made another visualization based on juxtaposing the histograms; however, I synthesized more elements from the other two visualizations, such as incorporating symmetry for "visual simplicity," as well as color. I also wanted to focus on sketch three as it includes non-trivial data rotations and graph manipulations that I strongly felt would help me become much more fluent with Tableau.
+			</p>
+			<p>
+				Moving onto my design decisions, my visualization depicts population histograms, comparing the age distribution of men and women in the United States at the beginning of the 20th and 21st centuries (1900 and 2000). In crafting this visualization, my primary goal was to enable clear comparisons between the two time periods. Design choices were driven by a desire to focus on the overall shape and distribution patterns, potentially reflecting changes in life expectancy and broader demographic shifts. As is clear from the chart, such changes did indeed occur, as the population does not monotonically decrease in age (as in 1900) but rather has non-trivial humps around the age groups 10-20 and 35-50, as well as some differing behavior between men and women in 2000. Furthermore, color, scale, and sorting were strategically selected to facilitate comparison: a neutral gray avoids bias, a consistent population scale allows evaluation across years, and ascending age groups ensure intuitive reading. I also omitted population numbers to emphasize relative distribution over absolute values — which appropriately is what my question wanted to focus on.
       </p>
 
 
       <h3>Reflection</h3>
 
       <p>
-        WRITE YOUR FINAL REFLECTION HERE.
+        Overall, I would say that phase one helped my design process. As discussed previously, I iterated over several ideas that were lacking in certain ways and ultimately ended up with a visualization that answered each of the components of my question, cleanly and intuitively. I was also able to utilize the components of each (starkly different) sketch that worked the best to make a final visualization incorporating all components. Furthermore, something that stuck out to me was my inability to foresee issues with my initial sketches (for instance, the chaotic density/clustering around certain populations that appeared in my first visualization); it was exactly through this iterative process of sketching that I was able to iron out such unforeseen problems with my ideas. Finally, looking forward, I am curious about how future iterations of this visualization could strive to be more inclusive of non-binary genders; while I could of course just make more histograms, this visualization would become quite dense with many graphs — so perhaps other ideas (such as the one explored in my second sketch with the heatmap) would be much more appropriate.
       </p>
 		</section>
 	</main>
